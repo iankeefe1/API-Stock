@@ -1,6 +1,59 @@
 [
   {
     "ContainingType": "API_Portfolio.Controllers.StockController",
+    "Method": "AddStock",
+    "RelativePath": "Stock/AddStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stock",
+        "Type": "API_Portfolio.Entities.Stock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockController",
+    "Method": "DeleteStock",
+    "RelativePath": "Stock/DeleteStock",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockController",
+    "Method": "EditStock",
+    "RelativePath": "Stock/EditStock",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stockcount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockController",
     "Method": "GetStockByStockId",
     "RelativePath": "Stock/GetStockByStockId",
     "HttpMethod": "GET",

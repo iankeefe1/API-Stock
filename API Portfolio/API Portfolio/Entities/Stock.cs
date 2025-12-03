@@ -10,9 +10,9 @@ namespace API_Portfolio.Entities
         [Column("StockId")]
         public int StockId { get; set; }
 
-        public string StockName { get; set; }
+        public string? StockName { get; set; }
 
-        public string StockCount { get; set; }
+        public int? StockCount { get; set; }
 
     }
 }
