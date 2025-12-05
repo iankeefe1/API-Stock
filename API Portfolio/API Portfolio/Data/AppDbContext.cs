@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Reflection.Emit;
-using API_Portfolio.Entities;
+﻿using API_Portfolio.Entities;
+//using API_Portfolio.Model;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Reflection.Emit;
 
 namespace API_Portfolio.Data
 {
@@ -17,7 +18,7 @@ namespace API_Portfolio.Data
 
         public DbSet<Stock> Stocks { get; set; }
 
-        public DbSet<StockIn> StockIns { get; set; }
+        public DbSet<StockIn> StockIn { get; set; }
 
         public DbSet<StockInDetail> StockInDetails { get; set; }
 
@@ -38,11 +39,10 @@ namespace API_Portfolio.Data
             modelBuilder.Entity<Stock>()
                 .HasKey(u => u.StockId);
 
-            modelBuilder.Entity<StockIn>()
-                .HasKey(u => u.StockInId);
-
             modelBuilder.Entity<StockInDetail>()
-                .HasKey(u => u.StockInDetailId);
+                .HasOne(d => d.StockIn)
+                .WithMany(p => p.StockInDetail)
+                .HasForeignKey(d => d.StockInId);
 
             modelBuilder.Entity<StockOut>()
                 .HasKey(u => u.StockOutId);

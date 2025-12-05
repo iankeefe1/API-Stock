@@ -1,5 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿//using API_Portfolio.Model;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace API_Portfolio.Entities
 {
@@ -8,10 +10,13 @@ namespace API_Portfolio.Entities
     {
         [Key]
         [Column("StockInId")]
-        public int StockInId { get; set; }
 
-        public string StockInSummary { get; set; }
+        [JsonIgnore]   // <- Important (avoid JSON errors)
+        public int StockInId { get; set; }   // ✅ KEEP THIS
 
-        public string StockInUser { get; set; }
+        public string? StockInSummary { get; set; }
+        public string? StockInUser { get; set; }
+
+        public List<StockInDetail> StockInDetail { get; set; }
     }
 }

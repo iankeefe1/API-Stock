@@ -125,6 +125,98 @@
         }
       }
     },
+    "/StockIn/GetStockInByStockId": {
+      "get": {
+        "tags": [
+          "StockIn"
+        ],
+        "parameters": [
+          {
+            "name": "stockinid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/StockIn/AddStockIn": {
+      "post": {
+        "tags": [
+          "StockIn"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StockIn"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StockIn"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StockIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/StockIn/DeleteStockInById": {
+      "delete": {
+        "tags": [
+          "StockIn"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Users/GetUserByUsersUsernameAndPassword": {
       "get": {
         "tags": [
@@ -329,6 +421,41 @@
             "type": "integer",
             "format": "int32",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StockIn": {
+        "type": "object",
+        "properties": {
+          "stockInSummary": {
+            "type": "string",
+            "nullable": true
+          },
+          "stockInUser": {
+            "type": "string",
+            "nullable": true
+          },
+          "stockInDetail": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StockInDetail"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StockInDetail": {
+        "type": "object",
+        "properties": {
+          "stockInCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stockId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

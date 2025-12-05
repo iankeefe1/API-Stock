@@ -79,6 +79,64 @@
     ]
   },
   {
+    "ContainingType": "API_Portfolio.Controllers.StockInController",
+    "Method": "AddStockIn",
+    "RelativePath": "StockIn/AddStockIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Portfolio.Entities.StockIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockInController",
+    "Method": "DeleteStockInById",
+    "RelativePath": "StockIn/DeleteStockInById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockInController",
+    "Method": "GetStockInByStockId",
+    "RelativePath": "StockIn/GetStockInByStockId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockinid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "API_Portfolio.Controllers.UsersController",
     "Method": "CreateUser",
     "RelativePath": "Users/CreateUser",
