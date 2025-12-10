@@ -54,6 +54,38 @@
   },
   {
     "ContainingType": "API_Portfolio.Controllers.StockController",
+    "Method": "EditStockIn",
+    "RelativePath": "Stock/EditStockIn",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockin",
+        "Type": "API_Portfolio.Entities.StockIn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockController",
+    "Method": "EditStockOut",
+    "RelativePath": "Stock/EditStockOut",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockout",
+        "Type": "API_Portfolio.Entities.StockOut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockController",
     "Method": "GetStockByStockId",
     "RelativePath": "Stock/GetStockByStockId",
     "HttpMethod": "GET",
@@ -124,6 +156,84 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockOutController",
+    "Method": "AddStockOut",
+    "RelativePath": "StockOut/AddStockOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "API_Portfolio.Entities.StockOut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockOutController",
+    "Method": "DeleteStockOutById",
+    "RelativePath": "StockOut/DeleteStockOutById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.StockOutController",
+    "Method": "GetStockOutByStockId",
+    "RelativePath": "StockOut/GetStockOutByStockId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockoutid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_Portfolio.Controllers.TransactionsController",
+    "Method": "GetAllTransactions",
+    "RelativePath": "Transactions/GetAllTransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.String",

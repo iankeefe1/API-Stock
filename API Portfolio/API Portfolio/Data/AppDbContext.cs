@@ -25,6 +25,8 @@ namespace API_Portfolio.Data
         public DbSet<StockOut> StockOuts { get; set; }
 
         public DbSet<StockOutDetail> StockOutDetails { get; set; }
+
+        public DbSet<Transactions> Transactions { get; set; }
         //public DbSet<Users> Users { get; set; }
 
 
@@ -48,7 +50,12 @@ namespace API_Portfolio.Data
                 .HasKey(u => u.StockOutId);
 
             modelBuilder.Entity<StockOutDetail>()
-                .HasKey(u => u.StockOutDetailId);
+                .HasOne(d => d.StockOut)
+                .WithMany(p => p.StockOutDetail)
+                .HasForeignKey(d => d.StockOutId);
+
+            modelBuilder.Entity<Transactions>()
+                .HasKey(u => u.TransactionsID);
         }
     }
     

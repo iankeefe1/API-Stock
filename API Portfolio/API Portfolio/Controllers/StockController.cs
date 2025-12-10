@@ -6,6 +6,7 @@ using BCrypt.Net;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Cryptography.X509Certificates;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 
@@ -121,6 +122,92 @@ namespace API_Portfolio.Controllers
                 await _context.SaveChangesAsync();
 
                 return Ok ("Edit Stocks Completed");
+            }
+        }
+
+        [HttpPut("EditStockIn")]
+        public async Task<IActionResult> EditStockIn(StockIn stockin)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+
+            try
+            {
+                foreach (var stockInDetail in stockin.StockInDetail)
+                {
+                    if (stockInDetail.StockId == 0)
+                    {
+                        return BadRequest("Stock Not Found");
+                    }
+
+                    var stock = await _context.Stocks
+                        .FirstOrDefaultAsync(s => s.StockId == stockInDetail.StockId);
+
+                    if (stock == null)
+                    {
+                        return BadRequest($"Stock ID {stockInDetail.StockId} not found");
+                    }
+
+                    stock.StockCount += stockInDetail.StockInCount;
+                }
+
+                // ✅ Save only ONCE
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                return Ok("Stocks In Completed");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPut("EditStockOut")]
+        public async Task<IActionResult> EditStockOut(StockOut stockout)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                foreach (StockOutDetail stockOutDetail in stockout.StockOutDetail)
+                {
+                    if (stockOutDetail.StockId == 0)
+                    {
+                        return BadRequest("Stock Not Found");
+                    }
+                    else
+                    {
+                        var stocks = _context.Stocks
+                        .Where(u => u.StockId == stockOutDetail.StockId).FirstOrDefault();
+
+                        if (stocks == null)
+                        {
+                            return BadRequest($"Stock Out {stockOutDetail.StockId} not found");
+                        }
+                        else
+                        {
+                            if (stocks.StockCount - stockOutDetail.StockOutCount < 0)
+                            {
+                                return BadRequest("No Stocks Related Found");
+                            }
+                            else
+                            {
+                                stocks.StockCount = stocks.StockCount - stockOutDetail.StockOutCount;
+
+                                await _context.SaveChangesAsync();
+                            }
+                        }
+                    }
+                }
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                return Ok("Stocks Out Completed");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return StatusCode(500, ex.Message);
             }
         }
         #endregion

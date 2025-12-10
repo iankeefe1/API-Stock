@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API Portfolio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e73fdde5ceaef1fc9d6ca009bcc5bdfbb08fbaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c17de20e4b1aaee0659a26d37cb8e80ca9f5669")]
 [assembly: System.Reflection.AssemblyProductAttribute("API Portfolio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API Portfolio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

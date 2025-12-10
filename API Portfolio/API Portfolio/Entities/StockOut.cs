@@ -15,5 +15,7 @@ namespace API_Portfolio.Entities
         public string StockOutUser { get; set; }
 
         public string StockOutOwner { get; set; }
+
+        public List<StockOutDetail> StockOutDetail { get; set; }
     }
 }

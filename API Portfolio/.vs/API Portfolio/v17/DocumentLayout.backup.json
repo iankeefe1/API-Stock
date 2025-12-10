@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\controllers\\stockincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\controllers\\stockincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\stockindetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\stockindetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\stockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\stockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\model\\stockins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\model\\stockins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\controllers\\stockincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\controllers\\stockincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\controllers\\stockoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\stockoutdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\stockoutdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\stockindetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\stockindetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\model\\stockindetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\model\\stockindetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|c:\\users\\user\\documents\\github\\api-stock\\api portfolio\\api portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62670D77-07C1-4E40-8A49-722EED4001DD}|API Portfolio\\API Portfolio.csproj|solutionrelative:api portfolio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "API Portfolio\\Controllers\\UsersController.cs",
@@ -67,8 +67,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T14:57:07.035Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -78,7 +77,7 @@
               "RelativeDocumentMoniker": "API Portfolio\\Controllers\\StockController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\StockController.cs",
               "RelativeToolTip": "API Portfolio\\Controllers\\StockController.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAowKQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T15:53:00.947Z",
               "IsPinned": true,
@@ -86,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StockInController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\StockInController.cs",
               "RelativeDocumentMoniker": "API Portfolio\\Controllers\\StockInController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\StockInController.cs",
               "RelativeToolTip": "API Portfolio\\Controllers\\StockInController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAD4v14AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T19:15:52.933Z",
               "IsPinned": true,
@@ -100,104 +99,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StockInDetail.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockInDetail.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Entities\\StockInDetail.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockInDetail.cs",
-              "RelativeToolTip": "API Portfolio\\Entities\\StockInDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "API Portfolio\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA0wCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T20:51:04.501Z",
+              "WhenOpened": "2025-12-10T11:17:14.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StockIn.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockIn.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Entities\\StockIn.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockIn.cs",
-              "RelativeToolTip": "API Portfolio\\Entities\\StockIn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\Transactions.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Entities\\Transactions.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\Transactions.cs",
+              "RelativeToolTip": "API Portfolio\\Entities\\Transactions.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T20:35:58.756Z",
+              "WhenOpened": "2025-12-10T11:14:04.565Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StockIns.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Model\\StockIns.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Model\\StockIns.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Model\\StockIns.cs",
-              "RelativeToolTip": "API Portfolio\\Model\\StockIns.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T20:16:02.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\Stock.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Entities\\Stock.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\Stock.cs",
-              "RelativeToolTip": "API Portfolio\\Entities\\Stock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T19:30:22.258Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Model\\User.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Model\\User.cs",
-              "RelativeToolTip": "API Portfolio\\Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Title": "StockOutDetail.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockOutDetail.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Entities\\StockOutDetail.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockOutDetail.cs",
+              "RelativeToolTip": "API Portfolio\\Entities\\StockOutDetail.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T15:37:02.916Z",
+              "WhenOpened": "2025-12-10T10:15:56.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StockOut.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockOut.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Entities\\StockOut.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockOut.cs",
+              "RelativeToolTip": "API Portfolio\\Entities\\StockOut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:15:34.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\Users.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Entities\\Users.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\Users.cs",
-              "RelativeToolTip": "API Portfolio\\Entities\\Users.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAwAAAAIAAAAAAAAAA==",
+              "Title": "StockInDetails.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Model\\StockInDetails.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Model\\StockInDetails.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Model\\StockInDetails.cs",
+              "RelativeToolTip": "API Portfolio\\Model\\StockInDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T15:16:35.721Z"
+              "WhenOpened": "2025-12-10T10:15:22.404Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "StockOutController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\StockOutController.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Controllers\\StockOutController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\StockOutController.cs",
+              "RelativeToolTip": "API Portfolio\\Controllers\\StockOutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:13:42.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "API Portfolio\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Data\\AppDbContext.cs",
               "RelativeToolTip": "API Portfolio\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T14:08:53.784Z",
+              "WhenOpened": "2025-12-10T10:49:37.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Program.cs",
-              "RelativeDocumentMoniker": "API Portfolio\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Program.cs",
-              "RelativeToolTip": "API Portfolio\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "StockInDetail.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockInDetail.cs",
+              "RelativeDocumentMoniker": "API Portfolio\\Entities\\StockInDetail.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Entities\\StockInDetail.cs",
+              "RelativeToolTip": "API Portfolio\\Entities\\StockInDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T13:20:41.559Z"
+              "WhenOpened": "2025-12-10T10:49:10.915Z",
+              "EditorCaption": ""
             }
           ]
         }
