@@ -1,0 +1,1 @@
+C:\Users\user\Documents\GitHub\API-Stock\API Portfolio\FrontEnd\obj\Debug\frontend.esproj.CoreCompileInputs.cache

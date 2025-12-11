@@ -42,10 +42,11 @@ namespace API_Portfolio.Controllers
         #endregion
 
         #region POST
-        [HttpPut("EditStockIn")]
-        public async Task<IActionResult> EditStockIn(StockIn stockin)
+        [HttpPut("AddStockIn")]
+        public async Task<IActionResult> AddStockIn(StockIn stockin)
         {
             using var transaction = await _context.Database.BeginTransactionAsync();
+            List<Transactions> listtransactions = new List<Transactions>();
 
             try
             {
@@ -63,8 +64,71 @@ namespace API_Portfolio.Controllers
                     {
                         return BadRequest($"Stock ID {stockInDetail.StockId} not found");
                     }
+                    else
+                    {
+                        Transactions transactions = new Transactions();
 
-                    stock.StockCount += stockInDetail.StockInCount;
+                        transactions.StockId = stockInDetail.StockId;
+
+                        transactions.StockInId = stockInDetail.StockInId;
+                        transactions.StockInDetailId = stockInDetail.StockInDetailId;
+                        transactions.StockCount = stockInDetail.StockInCount;
+
+                        transactions.DateTransaction = DateTime.Now;
+
+                        listtransactions.Add(transactions);
+                    }
+                }
+
+                // ✅ Save only ONCE
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                return Ok("Stocks In Completed");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPut("AddStockOut")]
+        public async Task<IActionResult> AddStockOut(StockOut stockOut)
+        {
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            List<Transactions> listtransactions = new List<Transactions>();
+
+            try
+            {
+                foreach (var stockoutdetail in stockOut.StockOutDetail)
+                {
+                    if (stockoutdetail.StockId == 0)
+                    {
+                        return BadRequest("Stock Not Found");
+                    }
+
+                    var stock = await _context.Stocks
+                        .FirstOrDefaultAsync(s => s.StockId == stockoutdetail.StockId);
+
+                    if (stock == null)
+                    {
+                        return BadRequest($"Stock ID {stockoutdetail.StockId} not found");
+                    }
+                    else
+                    {
+                        Transactions transactions = new Transactions();
+
+                        transactions.StockId = stockoutdetail.StockId;
+
+                        transactions.StockOutId = stockoutdetail.StockOutId;
+                        transactions.StockOutDetailId = stockoutdetail.StockOutDetailId;
+                        transactions.StockCount = stockoutdetail.StockOutCount;
+
+                        transactions.DateTransaction = DateTime.Now;
+
+                        listtransactions.Add(transactions);
+                    }
                 }
 
                 // ✅ Save only ONCE

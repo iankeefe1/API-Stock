@@ -80,8 +80,7 @@
               "ViewState": "AgIAAIsAAAAAAAAAAAAwwKMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-03T15:53:00.947Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -94,8 +93,7 @@
               "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T19:15:52.933Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -105,7 +103,7 @@
               "RelativeDocumentMoniker": "API Portfolio\\Controllers\\TransactionsController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\API-Stock\\API Portfolio\\API Portfolio\\Controllers\\TransactionsController.cs",
               "RelativeToolTip": "API Portfolio\\Controllers\\TransactionsController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAcwDoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwFoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T11:17:14.904Z",
               "EditorCaption": ""
@@ -120,8 +118,7 @@
               "RelativeToolTip": "API Portfolio\\Entities\\Transactions.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:14:04.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T11:14:04.565Z"
             },
             {
               "$type": "Document",
@@ -133,8 +130,7 @@
               "RelativeToolTip": "API Portfolio\\Entities\\StockOutDetail.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:15:56.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:15:56.029Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "API Portfolio\\Entities\\StockOut.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:15:34.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:15:34.08Z"
             },
             {
               "$type": "Document",
@@ -159,8 +154,7 @@
               "RelativeToolTip": "API Portfolio\\Model\\StockInDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:15:22.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:15:22.404Z"
             },
             {
               "$type": "Document",
@@ -172,8 +166,7 @@
               "RelativeToolTip": "API Portfolio\\Controllers\\StockOutController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:13:42.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:13:42.653Z"
             },
             {
               "$type": "Document",
@@ -185,8 +178,7 @@
               "RelativeToolTip": "API Portfolio\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:49:37.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:49:37.757Z"
             },
             {
               "$type": "Document",
@@ -198,8 +190,7 @@
               "RelativeToolTip": "API Portfolio\\Entities\\StockInDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:49:10.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T10:49:10.915Z"
             }
           ]
         }
